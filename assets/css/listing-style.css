@@ -1,0 +1,257 @@
+body {
+
+    color: #888;   
+
+}
+
+a {
+
+    color: #03a1d1;
+
+    text-decoration: none!important;
+
+}
+
+
+
+/**** LAYOUT ****/
+
+.list-inline>li {
+
+    padding: 0 10px 0 0;
+    font-size: 14px;
+}
+
+.container-pad {
+
+    padding: 30px 15px;
+
+}
+
+.media-body{
+
+    /*margin-left: 23px;*/
+
+}
+
+.media .listing-img{
+
+    width: 100% !important;
+
+    height: 200px !important;
+
+}
+
+/**** MODULE ****/
+
+.bgc-fff {
+
+    background-color: #fff!important;
+
+}
+
+.box-shad {
+
+    /*-webkit-box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+
+    box-shadow: 1px 1px 0 rgba(0,0,0,.2);*/
+
+}
+
+.brdr {
+
+    border: 1px solid #ededed;
+
+}
+
+
+
+/* Font changes */
+
+.fnt-smaller {
+
+    font-size: 1.0em;
+
+}
+
+.fnt-lighter {
+
+    color: #bbb;
+
+}
+
+
+
+/* Padding - Margins */
+
+.pad-10 {
+
+    padding: 10px!important;
+
+}
+
+.mrg-0 {
+
+    margin: 0!important;
+
+}
+
+.btm-mrg-10 {
+
+    margin-bottom: 10px!important;
+
+}
+
+.btm-mrg-20 {
+
+    margin-bottom: 20px!important;
+
+}
+
+
+
+/* Color  */
+
+.clr-535353 {
+
+    color: #535353;
+
+}
+
+
+
+
+
+
+
+
+
+/**** MEDIA QUERIES ****/
+
+@media only screen and (max-width: 991px) {
+
+    #property-listings .property-listing {
+
+        padding: 5px!important;
+
+    }
+
+    #property-listings .property-listing a {
+
+        margin: 0;
+
+    }
+
+    #property-listings .property-listing .media-body {
+
+        padding: 10px;
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
+    #property-listings .property-listing img {
+
+        max-width: 180px;
+
+    }
+
+}
+
+/*Search Styles*/
+
+/*search box css start here*/
+
+.search-sec{
+
+    padding: 2rem;
+
+}
+
+.search-slt{
+
+    display: block;
+
+    width: 100%;
+
+    font-size: 0.875rem;
+
+    line-height: 1.5;
+
+    color: #55595c;
+
+    background-color: #fff;
+
+    background-image: none;
+
+    border: 1px solid #ccc;
+
+    height: calc(3rem + 2px) !important;
+
+    border-radius:0;
+
+}
+
+
+
+.wrn-btn{
+
+    width: 100%;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    text-transform: capitalize;
+
+    height: calc(3rem + 2px) !important;
+
+    border-radius:0;
+
+}
+
+@media (min-width: 992px){
+
+    .search-sec{
+
+        position: relative;
+
+        top: 65px;
+
+        background: #f2f2f2;
+
+    }
+
+}
+
+
+
+@media (max-width: 992px){
+
+    .search-sec{
+
+        background: #f2f2f2;
+
+    }
+
+}
+
+.search-sec{
+
+    background: #f2f2f2;
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .pad-10{
+
+    margin-top: 50px;
+
+  }
+
+}

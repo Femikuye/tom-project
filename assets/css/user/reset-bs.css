@@ -1,0 +1,83 @@
+/* buttons
+-------------------*/
+.btn:hover, .btn:focus, .btn:active:hover, .btn:active:focus, .btn.active{
+	box-shadow:none;
+	outline:none;}
+.btn-primary, .btn-default, .btn-success, .btn-warning, .btn-info{
+	font-size:16px;
+	font-weight:600;
+}
+.btn-primary {
+    background-color: #F4731E;
+    border-color: #F4731E;
+    color: #FFFFFF;
+}
+.btn-info.btn-xs,
+.btn-warning.btn-xs,
+.btn-success.btn-xs,
+.btn-default.btn-xs,
+.btn-primary.btn-xs,
+.btn-primary.btn-sm,
+.btn-default.btn-sm,
+.btn-success.btn-sm,
+.btn-warning.btn-sm,
+.btn-info.btn-sm{
+	font-size:12px;
+
+}
+.btn-primary.btn-xs{
+	color:#fff;
+}
+.btn-default.btn-xs{
+	color:#333;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #e56c1c!important;
+    border-color: #e56c1c!important;
+    color: #FFFFFF;
+	box-shadow:none;
+}
+.btn-success{
+	background-color:#56AB5B;
+	border-color:#56AB5B;}
+.btn-warning{
+	background-color:#EEA239;
+	border-color:#EEA239;
+}
+/* form
+----------*/
+.label-primary{
+	background:#043F79!important;
+}
+.label-home{
+}
+.text-primary{
+	color:#064F97;}
+.text-success{
+	color:#56AB57!important;
+}
+.text-danger{
+	color:#CC3333!important;
+}
+.form-control-static{
+	font-weight:600;
+	color:#333;}
+.panel{
+	border-radius:2px;
+}
+.checkbox+.checkbox, .radio+.radio{
+	margin-top:6px;}
+.has-success .form-control.srch_input{
+ padding-right: 12px !important;
+}
+.error-text{
+	position: absolute;
+    font-size: 12px;
+	margin-top:-4px;
+}
+.form-group{
+	margin-bottom:20px;
+}
+.checkbox, .radio{
+	display:inline-block;
+}
